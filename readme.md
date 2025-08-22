@@ -12,14 +12,14 @@ Generate QR codes locally with a centered brand logo. No tracking, no SaaS, no e
 ## Repo Structure
 
 QR_Generator/
-├─ main.py # library: generate_qr(...)
-├─ cli.py # interactive CLI
-├─ config.py # trusted defaults (ECC, border, logo scale, etc.)
-├─ requirements.txt # segno, Pillow, (optional) cairosvg
-├─ readme.md
-├─ data/ # put your logos here (png/jpg/svg)
-│ └─ logo.png
-└─ output/ # generated codes land here
+ ├─ main.py # library: generate_qr(...)
+ ├─ cli.py # interactive CLI
+ ├─ config.py # trusted defaults (ECC, border, logo scale, etc.)
+ ├─ requirements.txt # segno, Pillow, (optional) cairosvg
+ ├─ readme.md
+ ├─ data/ # put your logos here (png/jpg/svg)
+ │ └─ logo.png
+ └─ output/ # generated codes land here
 
 
 ---
